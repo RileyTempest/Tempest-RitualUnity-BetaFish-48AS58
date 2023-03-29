@@ -4,6 +4,10 @@ using UnityEngine;
 
 namespace Tempest
 {
+    /*
+     *None of this is relevant anymore. No need for manual, dirty update. 
+     * 
+     */
     public class TriLight : MonoBehaviour
     {
         //Static

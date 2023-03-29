@@ -321,12 +321,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1006354849}
         m_TargetAssemblyTypeName: ButtonThingEvent, Assembly-CSharp
-        m_MethodName: HandleLightColor03
+        m_MethodName: HandleLightColor_Top
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: whatsaname?
           m_BoolArgument: 0
@@ -648,7 +648,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 868677891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1006354849}
+        m_TargetAssemblyTypeName: ButtonThingEvent, Assembly-CSharp
+        m_MethodName: HandleLightColor_Bottom
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &868677891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,6 +841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3438b475fa84183aeb82ade15ceda7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LightTop: {fileID: 1474180037}
+  LightMiddle: {fileID: 59906049}
+  LightBottom: {fileID: 1137050764}
 --- !u!1 &1137050759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,7 +1218,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1588882620}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1006354849}
+        m_TargetAssemblyTypeName: ButtonThingEvent, Assembly-CSharp
+        m_MethodName: HandleLightColor_Middle
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1588882620
 MonoBehaviour:
   m_ObjectHideFlags: 0
