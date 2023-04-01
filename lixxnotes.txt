@@ -1,0 +1,15 @@
+NYC deserves my Venom. So this is my poisson. Hey, Poison.
+
+State machine:
+
+unity agnostic to maintain portability. 
+
+Argument, Enum based instead of object. 
+
+
+
+composite state entries?
+
+
+https://github.com/RileyTempest/Tempest-RitualUnity-BetaFish-48AS58.git
+https://github.com/RileyTempest/Tempest-HeyPoison-BoilerPlate-57AS220.git
