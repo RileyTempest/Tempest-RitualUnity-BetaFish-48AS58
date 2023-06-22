@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Tempest.Machines.Bx;
 using UnityEngine;
 
-public class StackTroika : MonoBehaviour
+public class StackTroika<TClipStack> : MonoBehaviour
+    where TClipStack : ClipStack
 {
-    // Start is called before the first frame update
+    //Properties
+
+    
+    
+    
+    //
     void Start()
     {
         

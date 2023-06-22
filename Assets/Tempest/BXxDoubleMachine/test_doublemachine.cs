@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -36,10 +37,10 @@ namespace Tempest.Machines.Bx
 {
     public class ClipMachine : MonoBehaviour
     {
-        
+
     }
 
-    public class ClipStack //: System.Collections.Generic.Stack
+    public class ClipStack : ClipMachine
     {
         
     }
@@ -67,7 +68,7 @@ namespace Tempest.Machines.Bx
     }
     public interface ILavenderStack : IJukeActions
     {
-        void ToggleBoo();
+        void ToggleBoo(Renderer _renderer);
     }
     public interface ICanaryStack : IJukeActions
     {
@@ -78,56 +79,5 @@ namespace Tempest.Machines.Bx
         void ToggleFoo();
     }
     
-    //ConcreteClasses
-    public class LavenderStack : ClipStack, ILavenderStack
-    {
-        public void Eject()
-        {
-            throw new System.NotImplementedException();
-        }
 
-        public void Rotate()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void ToggleBoo()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
-    public class CanaryStack : ClipStack, ICanaryStack
-    {
-        public void Eject()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Rotate()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void ToggleHoo()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
-    public class EmeraldStack : ClipStack, IEmeraldStack
-    {
-        public void Eject()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Rotate()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void ToggleFoo()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
 }

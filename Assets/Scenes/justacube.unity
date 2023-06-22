@@ -152,12 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324121641e7345d79e8e954879356ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StackCarosel: {fileID: 620118117}
+  LavenderGO: {fileID: 8743567366395054290}
+  CanaryGO: {fileID: 1668936576}
+  EmeraldGO: {fileID: 2067381424}
+  Stackcarousel: {fileID: 620118117}
   StackIndex: 0
-  GOorbs:
-  - {fileID: 8743567366395054290}
-  - {fileID: 1668936576}
-  - {fileID: 2067381424}
 --- !u!4 &76779550
 Transform:
   m_ObjectHideFlags: 0
@@ -327,6 +326,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a66e6f6ef16dc4b2abd9e950991bab8e, type: 3}
+--- !u!1 &368320569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 368320570}
+  m_Layer: 0
+  m_Name: I am here to program simonSays
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &368320570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368320569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 148.25, y: 254.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1342685218}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &620118117 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2680358878140970072, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
@@ -663,6 +694,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1020594118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020594119}
+  m_Layer: 0
+  m_Name: I forgot something
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020594119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020594118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1185556890}
+  m_Father: {fileID: 1690751337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039497101
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +823,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039497101}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1185556889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1185556890}
+  m_Layer: 0
+  m_Name: SimonSays
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1185556890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185556889}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1020594119}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1286079545
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,7 +1089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1706680651404759674, guid: db826c8883e714910a52866dd7dfc7b2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1706680651404759674, guid: db826c8883e714910a52866dd7dfc7b2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1012,6 +1106,10 @@ PrefabInstance:
     - target: {fileID: 1706680651404759674, guid: db826c8883e714910a52866dd7dfc7b2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Tempest.Machines.Bx.TempestClipMachine, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706680651404759674, guid: db826c8883e714910a52866dd7dfc7b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3256974999960933693, guid: db826c8883e714910a52866dd7dfc7b2, type: 3}
       propertyPath: m_IsActive
@@ -1083,6 +1181,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db826c8883e714910a52866dd7dfc7b2, type: 3}
+--- !u!1 &1342685217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342685218}
+  m_Layer: 0
+  m_Name: What are you here to do?
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1342685218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342685217}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1690751337}
+  m_Father: {fileID: 368320570}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515669356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,6 +1346,38 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3895628017445267148, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
   m_PrefabInstance: {fileID: 8743567366395054289}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1690751336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1690751337}
+  m_Layer: 0
+  m_Name: dont think too much
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1690751337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690751336}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1020594119}
+  m_Father: {fileID: 1342685218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1744508533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +1568,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1668936576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcaf6f1de56984840a614f4c48a58078, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a4aaf90b619422496b8c79620900512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2024053036
@@ -1655,7 +1817,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2067381424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcaf6f1de56984840a614f4c48a58078, type: 3}
+  m_Script: {fileID: 11500000, guid: 28166cf13fe94ef6982e5d2ddcf863f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &8743567366395054289
@@ -1677,10 +1839,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emerald
       objectReference: {fileID: 0}
+    - target: {fileID: 4711988278769210690, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e80333383517493d93ab46575fdae58, type: 2}
     - target: {fileID: 5858024199607881128, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
       propertyPath: m_Name
       value: Lavender
       objectReference: {fileID: 0}
+    - target: {fileID: 5858024199607881128, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308955316716455494, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b27c0cb11cc22424f8bd45941c21ef18, type: 2}
+    - target: {fileID: 8635154439397611907, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 873e06d2be36748159006ed9d35a4625, type: 2}
     - target: {fileID: 8819977724015725946, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1735,7 +1913,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5858024199607881128, guid: 81468598cc10e4b3b9017b1120a3f505, type: 3}
   m_PrefabInstance: {fileID: 8743567366395054289}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8743567366395054291
+--- !u!114 &8743567366395054293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1744,6 +1922,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8743567366395054290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcaf6f1de56984840a614f4c48a58078, type: 3}
+  m_Script: {fileID: 11500000, guid: 16ba15b358ed4da5ac654f3c55b757ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ClipMachine: {fileID: 0}
